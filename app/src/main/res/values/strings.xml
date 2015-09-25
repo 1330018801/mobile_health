@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">mobile_health</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="text">账号：</string>
+    <string name="text2">密码：</string>
+    <string name="account">  请输入账号</string>
+    <string name="password">  请输入密码</string>
+    <string name="title_activity_registered">RegisteredActivity</string>
+    <string name="phone">请输入手机号</string>
+    <string name="number">验证码</string>
+    <string name="button">发送验证码</string>
+    <string name="password2">确认密码</string>
+
 </resources>

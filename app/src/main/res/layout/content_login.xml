@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_login" tools:context="com.seimun.mobile_health.LoginActivity">
+
+
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text"
+        android:id="@+id/textView"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="225dp"
+        android:layout_width="wrap_content" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/textView"
+        android:layout_alignBottom="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/account"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text2"
+
+        android:layout_marginTop="20dp"
+
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/textView"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/textView2"
+
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/password"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登  录"
+        android:id="@+id/button"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注  册"
+        android:id="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
