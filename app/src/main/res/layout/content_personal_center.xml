@@ -23,7 +23,6 @@
         android:layout_marginTop="30dp"
         android:drawableLeft="@mipmap/archives"
         android:drawableRight="@mipmap/right"
-        android:autoText="false"
         android:background="#ffffff"
         />
 
