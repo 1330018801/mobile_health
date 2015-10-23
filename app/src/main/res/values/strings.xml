@@ -17,5 +17,6 @@
     <string name="title_activity_service_record">ServiceRecordActivity</string>
     <string name="service_times"><u>服务次数：6次</u></string>
     <string name="title_activity_service_details">ServiceDetailsActivity</string>
+    <string name="title_activity_hypertension_follow_up">Hypertension_follow_up</string>
 
 </resources>
