@@ -42,7 +42,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="我的家庭"
+        android:text="@string/my_family"
         android:gravity="center"
         android:id="@+id/textView6"
         android:drawableLeft="@mipmap/archives"
@@ -54,7 +54,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="设置"
+        android:text="@string/setting"
         android:drawableLeft="@mipmap/archives"
         android:drawableRight="@mipmap/right"
         android:gravity="center"

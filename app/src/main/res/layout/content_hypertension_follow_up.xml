@@ -29,8 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/textView85"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="25dp"
-        android:text="服务项目;第一次随访"
+        android:layout_marginLeft="15dp"
+        android:text="服务项目：第一次随访"
         android:id="@+id/textView86"/>
 </RelativeLayout>
     <RelativeLayout
@@ -238,7 +238,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="用法用量：每日1次   每次20mg"/>
+            android:text="用法用量：每日1次   每次20mg"
+            android:id="@+id/textView115"/>
     </LinearLayout>
 
  </LinearLayout>

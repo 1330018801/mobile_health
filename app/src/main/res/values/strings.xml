@@ -18,5 +18,10 @@
     <string name="service_times"><u>服务次数：6次</u></string>
     <string name="title_activity_service_details">ServiceDetailsActivity</string>
     <string name="title_activity_hypertension_follow_up">Hypertension_follow_up</string>
+    <string name="title_activity_diabetes_follow_up">Diabetes_follow_up</string>
+    <string name="login">登 录</string>
+    <string name="registered">注 册</string>
+    <string name="my_family">我的家庭</string>
+    <string name="setting">设 置</string>
 
 </resources>
