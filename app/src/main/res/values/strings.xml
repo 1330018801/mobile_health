@@ -23,5 +23,6 @@
     <string name="registered">注 册</string>
     <string name="my_family">我的家庭</string>
     <string name="setting">设 置</string>
+    <string name="title_activity_neonatal_family_visit">Neonatal_family_visit</string>
 
 </resources>
