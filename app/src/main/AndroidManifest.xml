@@ -40,6 +40,50 @@
         <activity
             android:name=".Neonatal_family_visit"
             android:label="@string/title_activity_neonatal_family_visit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aftercare1To8Month"
+            android:label="@string/title_activity_aftercare1_to8_month"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aftercare12To30Month"
+            android:label="@string/title_activity_aftercare12_to30_month"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aftercare3To6Year"
+            android:label="@string/title_activity_aftercare3_to6_year"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aftercare1"
+            android:label="@string/title_activity_aftercare1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Aftercare"
+            android:label="@string/title_activity_aftercare"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PostpartumVisit"
+            android:label="@string/title_activity_postpartum_visit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Postpartum42Exam"
+            android:label="@string/title_activity_postpartum42_exam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VaccineCard"
+            android:label="@string/title_activity_vaccine_card"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Vaccination"
+            android:label="@string/title_activity_vaccination"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TcmChildGuide"
+            android:label="@string/title_activity_tcm_child_guide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".psychiatric_aftercare"
+            android:label="@string/title_activity_psychiatric_aftercare"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
