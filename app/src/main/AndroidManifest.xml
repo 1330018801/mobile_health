@@ -84,6 +84,10 @@
         <activity
             android:name=".psychiatric_aftercare"
             android:label="@string/title_activity_psychiatric_aftercare"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Personal_info"
+            android:label="@string/title_activity_personal_info"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -20,25 +20,21 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="服务类别："
-                android:id="@+id/textView9"/>
+                android:text="服务类别："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="高血压健康管理"
-                android:id="@+id/textView09"/>
+                android:text="高血压健康管理"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="服务项目："
-                android:id="@+id/textView10"
                 android:layout_marginLeft="30dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="健康体检"
-                android:id="@+id/textView010"/>
+                android:text="健康体检"/>
         </LinearLayout>
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -48,40 +44,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="体检日期："
-                android:id="@+id/visit_date" />
+                android:id="@+id/textView01"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2015-09-02"
-                android:layout_toRightOf="@+id/visit_date"
-                android:id="@+id/textView011"/>
+                android:layout_toRightOf="@+id/textView01"
+                android:id="@+id/visit_date"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="责任医生："
-                android:id="@+id/doctor"
-                android:layout_toRightOf="@id/textView011"
+                android:id="@+id/textView02"
+                android:layout_toRightOf="@id/visit_date"
                 android:layout_marginLeft="40dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="张医生"
-                android:layout_toRightOf="@+id/doctor"
-                android:id="@+id/textView012"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="症状："
-                android:id="@+id/textView13"
-                android:layout_below="@+id/doctor"
-                android:layout_marginTop="5dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="头晕 胸闷"
-                android:layout_below="@+id/doctor"
-                android:layout_marginTop="5dp"
-                android:layout_toRightOf="@id/textView13"/>
+                android:layout_toRightOf="@+id/textView02"
+                android:id="@+id/doctor"/>
         </RelativeLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -91,8 +73,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="一般状况"
-                android:id="@+id/textView14"/>
+                android:text="一般状况"/>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -101,29 +82,26 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="体温："
-                android:id="@+id/body_temperature"/>
+                android:text="体温：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="36.7°C"
-                android:id="@+id/textView015"/>
+                android:id="@+id/body_temperature"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="脉率："
-                android:id="@+id/pulse"
                 android:layout_marginLeft="79dp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="80"
-                android:id="@+id/textView016"/>
+                android:id="@+id/pulse"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="次/分钟"
-                android:id="@+id/textView0016"/>
+                android:text="次/分钟"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -133,44 +111,71 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="呼吸频率："
-                android:id="@+id/breath_frequency"/>
+                android:text="呼吸频率：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="22"
-                android:id="@+id/textView017"/>
+                android:id="@+id/breath_frequency"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="次/分钟"
-                android:id="@+id/textView0017"/>
+                android:text="次/分钟"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="血压： "
-                android:id="@+id/textView18"
                 android:layout_marginLeft="27dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="左侧："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="78"
-                android:id="@+id/textView018"/>
+                android:id="@+id/blood_pressure_left_sbp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="/"
-                android:id="@+id/textView0181"/>
+                android:text="/"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="128"
-                android:id="@+id/textView0182"/>
+                android:id="@+id/blood_pressure_left_dbp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" mmHg"
-                android:id="@+id/textView0183"/>
+                android:text=" mmHg"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="右侧："
+                    android:layout_marginLeft="205dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="120"
+                    android:id="@+id/blood_pressure_right_sbp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="89"
+                    android:id="@+id/blood_pressure_right_dbp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" mmHg"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -180,34 +185,30 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="身高： "
-                android:id="@+id/height"/>
+                android:text="身高： "/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="170"
-                android:id="@+id/textView019"/>
+                android:id="@+id/height"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="cm"
-                android:id="@+id/textView0191"/>
+                android:text="cm"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="体重： "
-                android:id="@+id/weight"
                 android:layout_marginLeft="71dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/textView020"
+                android:id="@+id/weight"
                 android:text="75" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="kg"
-                android:id="@+id/textView0201"/>
+                android:text="kg"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -217,47 +218,41 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="腰围："
-                android:id="@+id/waistline"/>
+                android:text="腰围：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="46"
-                android:id="@+id/textView021"/>
+                android:id="@+id/waistline"/>
             <TextView
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
-                 android:text=" cm"
-                 android:id="@+id/textView0211"/>
+                 android:text=" cm"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="体质指数（BMI）："
-                android:id="@+id/body_mass_index"
                 android:layout_marginLeft="80dp"/>
             <TextView
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
                  android:text="23"
-                 android:id="@+id/textView022"/>
+                android:id="@+id/body_mass_index"/>
             <TextView
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
-                 android:text=" kg/m2"
-                 android:id="@+id/textView0221"/>
+                 android:text=" kg/m2"/>
             </LinearLayout>
         </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="生活方式"
-                android:id="@+id/textView23"
                 android:layout_marginTop="30dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="体育锻炼"
-                android:id="@+id/textView24"
                 android:layout_marginTop="15dp"/>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -267,8 +262,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="锻炼频率："
-                android:id="@+id/textView25" />
+                android:text="锻炼频率："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -278,13 +272,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="每次锻炼时间："
-                android:id="@+id/textView26"
                 android:layout_marginLeft="60dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="30分钟"
                 android:id="@+id/textView026"/>
+
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -293,8 +287,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="坚持锻炼时间："
-                android:id="@+id/textView27"/>
+                android:text="坚持锻炼时间："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -303,13 +296,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="年"
-                android:id="@+id/textView0271"/>
+                android:text="年"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="锻炼方式："
-                android:id="@+id/textView28"
                 android:layout_marginLeft="28dp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -325,8 +316,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="饮食习惯："
-                android:id="@+id/textView29" />
+                android:text="饮食习惯：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -337,7 +327,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="吸烟情况"
-            android:id="@+id/textView30"
             android:layout_marginTop="5dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -347,8 +336,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="吸烟状况："
-                android:id="@+id/textView31"/>
+                android:text="吸烟状况："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -358,13 +346,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="日吸烟量："
-                android:id="@+id/textView32"
                 android:layout_marginLeft="62dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="平均"
-                android:id="@+id/textView032"/>
+                android:text="平均"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -373,8 +359,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="  支"
-                android:id="@+id/textView0322"/>
+                android:text="  支"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -384,8 +369,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="开始吸烟年龄："
-                android:id="@+id/textView33"/>
+                android:text="开始吸烟年龄："/>
             <TextView
                  android:layout_width="wrap_content"
                  android:layout_height="wrap_content"
@@ -394,14 +378,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="岁"
-                android:id="@+id/textView0331"/>
+                android:text="岁"/>
         </LinearLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="饮酒情况"
-                android:id="@+id/textView34"
                 android:layout_marginTop="5dp"/>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -411,8 +393,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="饮酒频率："
-                android:id="@+id/text35"/>
+                android:text="饮酒频率："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -422,13 +403,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="日均饮酒量： "
-                android:id="@+id/textView36"
                 android:layout_marginLeft="62dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="平均"
-                android:id="@+id/textView036"/>
+                android:text="平均"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -437,8 +416,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" 两"
-                android:id="@+id/textView0362"/>
+                android:text=" 两"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -448,8 +426,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="是否戒酒："
-                android:id="@+id/textView37" />
+                android:text="是否戒酒：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -459,7 +436,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="开始饮酒年龄："
-                android:id="@+id/textView38"
                 android:layout_marginLeft="48dp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -475,8 +451,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="近一年内是否酗酒："
-                android:id="@+id/textView39"/>
+                android:text="近一年内是否酗酒："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -486,7 +461,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="饮酒种类："
-                android:id="@+id/textView40"
                 android:layout_marginLeft="24dp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -502,8 +476,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="职业病危害接触史："
-            android:id="@+id/textView41"/>
+            android:text="职业病危害接触史："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -518,8 +491,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="毒物种类："
-                android:id="@+id/textView42"/>
+                android:text="毒物种类："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -529,7 +501,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="防护措施："
-                android:id="@+id/textView43"
                 android:layout_marginLeft="68dp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -541,13 +512,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="脏器功能"
-            android:id="@+id/textView44"
             android:layout_marginTop="30dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="口腔"
-            android:id="@+id/textView45"
             android:layout_marginTop="15dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -557,41 +526,37 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="口唇："
-                android:id="@+id/mouth_lip"/>
+                android:text="口唇：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="红润"
-                android:id="@+id/textView046"/>
+                android:id="@+id/mouth_lip"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="齿列："
-                android:id="@+id/mouth_tooth"
                 android:layout_marginLeft="40dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="正常"
-                android:id="@+id/textView047"/>
+                android:id="@+id/mouth_tooth"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="咽部："
-                android:id="@+id/mouth_throat"
                 android:layout_marginLeft="40dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="无充血"
-                android:id="@+id/textView048"/>
+                android:id="@+id/mouth_throat"/>
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="视力"
-            android:id="@+id/textView49"
             android:layout_marginTop="5dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -601,24 +566,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="左眼："
-                android:id="@+id/eyesight_left"/>
+                android:text="左眼：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3.5"
-                android:id="@+id/textView050"/>
+                android:id="@+id/eyesight_left"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="右眼："
-                android:id="@+id/eyesight_right"
                 android:layout_marginLeft="5dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="4.0"
-                android:id="@+id/textView051"/>
+                android:id="@+id/eyesight_right"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -628,28 +591,25 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="( 矫正视力：左眼："
-                android:id="@+id/eyesight_left_rectified" />
+                android:text="( 矫正视力：左眼：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="5.0"
-                android:id="@+id/textView052"/>
+                android:id="@+id/eyesight_left_rectified"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="右眼："
+                android:text="右眼：" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.0"
                 android:id="@+id/eyesight_right_rectified"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5.0"
-                android:id="@+id/textView053"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="）"
-                android:id="@+id/textView0531"/>
+                android:text="）"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -659,13 +619,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="听力 "
-                android:id="@+id/hearing" />
+                android:text="听力 " />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="听见"
-                android:id="@+id/textView054"
+                android:id="@+id/hearing"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
         <LinearLayout
@@ -676,20 +635,18 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="运动功能"
-                android:id="@+id/movement_function" />
+                android:text="运动功能" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="可正常完成"
-                android:id="@+id/textView055"
+                android:id="@+id/movement_function"
                 android:layout_marginLeft="10dp"/>
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="查体"
-            android:id="@+id/textView56"
             android:layout_marginTop="30dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -710,13 +667,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="皮肤："
-                android:id="@+id/skin"
                 android:layout_marginLeft="100dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="正常"
-                android:id="@+id/textView058"/>
+                android:id="@+id/skin"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -726,8 +682,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="巩膜："
-                android:id="@+id/textView59"/>
+                android:text="巩膜："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -737,19 +692,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="淋巴结："
-                android:id="@+id/lymph_node"
                 android:layout_marginLeft="100dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="未触及"
-                android:id="@+id/textView060"/>
+                android:id="@+id/lymph_node"/>
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="肺"
-            android:id="@+id/textView61"
             android:layout_marginTop="5dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -759,24 +712,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="桶状胸："
-                android:id="@+id/lung_barrel_chested" />
+                android:text="桶状胸：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="否"
-                android:id="@+id/textView062"/>
+                android:id="@+id/lung_barrel_chested"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="呼吸音："
-                android:id="@+id/lung_breath_sound"
                 android:layout_marginLeft="100dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="正常"
-                android:id="@+id/textView063"/>
+                android:id="@+id/lung_breath_sound"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -786,19 +737,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="罗音："
-                android:id="@+id/lung_rale" />
+                android:text="罗音：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="湿罗音"
-                android:id="@+id/textView064"/>
+                android:id="@+id/lung_rale"/>
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="心脏"
-            android:id="@+id/textView65"
             android:layout_marginTop="5dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -808,29 +757,26 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="心率："
-                android:id="@+id/heart_rate" />
+                android:text="心率：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="70"
-                android:id="@+id/textView066"/>
+                android:id="@+id/heart_rate"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="次/分钟 "
-                android:id="@+id/textView0661"/>
+                android:text="次/分钟 "/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="心律："
-                android:id="@+id/heart_rhythm"
                 android:layout_marginLeft="66dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="绝对不齐"
-                android:id="@+id/textView067"/>
+                android:id="@+id/heart_rhythm"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -840,26 +786,24 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="杂音："
-                android:id="@+id/heart_noise"/>
+                android:text="杂音：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="有"
-                android:id="@+id/textView068"
+                android:id="@+id/heart_noise"
                 android:layout_marginLeft="3dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="二尖瓣收缩期杂音"
                 android:layout_marginLeft="3dp"
-                android:id="@+id/textView0681"/>
+                android:id="@+id/heart_noise_extra"/>
         </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="腹部"
-            android:id="@+id/textView69"
             android:layout_marginTop="5dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -869,24 +813,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="压痛："
+                android:text="压痛：" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="无"
                 android:id="@+id/stomach_tenderness"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="无"
-                android:id="@+id/textView070"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="包块："
-                android:id="@+id/stomach_enclosed_mass"
                 android:layout_marginLeft="120dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="无"
-                android:id="@+id/textView071"/>
+                android:id="@+id/stomach_enclosed_mass"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -896,24 +838,22 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="肝大："
+                android:text="肝大："/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="无"
                 android:id="@+id/stomach_hepatomegaly"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="无"
-                android:id="@+id/textView072"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="脾大："
-                android:id="@+id/stomach_slenauxe"
                 android:layout_marginLeft="120dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="无"
-                android:id="@+id/textView073"/>
+                android:id="@+id/stomach_slenauxe"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -923,13 +863,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="移动性浊音："
-                android:id="@+id/stomach_shifting_dullness"/>
+                android:text="移动性浊音：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="无"
-                android:id="@+id/textView074"/>
+                android:id="@+id/stomach_shifting_dullness"/>
         </LinearLayout>
        <LinearLayout
            android:layout_width="wrap_content"
@@ -939,8 +878,7 @@
            <TextView
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="下肢水肿"
-               android:id="@+id/textView75"/>
+               android:text="下肢水肿"/>
            <TextView
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
@@ -956,13 +894,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="足背动脉搏动"
-                android:id="@+id/sign_acrotarsium_artery_pulse"/>
+                android:text="足背动脉搏动" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="触及右侧弱或消失"
-                android:id="@+id/textView076"
+                android:id="@+id/sign_acrotarsium_artery_pulse"
                 android:layout_marginLeft="15dp"/>
         </LinearLayout>
         <LinearLayout
@@ -973,8 +910,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="肛门指诊"
-                android:id="@+id/textView77"/>
+                android:text="肛门指诊"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

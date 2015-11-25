@@ -23,24 +23,20 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="服务类别："
-            android:id="@+id/textView85"/>
+            android:text="服务类别："/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="高血压患者健康管理"
-            android:id="@+id/textView085"/>
+            android:text="高血压患者健康管理"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:text="服务项目："
-            android:id="@+id/textView86"/>
+            android:text="服务项目："/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="第一次随访"
-            android:id="@+id/textView086"/>
+            android:text="第一次随访"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,24 +46,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="随访日期;"
-            android:id="@+id/visit_date"/>
+            android:text="随访日期;" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2015-09-15"
-            android:id="@+id/textView087"/>
+            android:id="@+id/visit_date"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="随访方式："
-            android:id="@+id/visit_way"
             android:layout_marginLeft="30dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="家庭"
-            android:id="@+id/textView088"/>
+            android:id="@+id/visit_way"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -77,13 +71,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="随访医生："
-            android:id="@+id/doctor_signature"/>
+            android:text="随访医生：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="张医生"
-            android:id="@+id/textView89"/>
+            android:id="@+id/doctor_signature"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -93,13 +86,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="症状："
-            android:id="@+id/symptom"/>
+            android:text="症状：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="心悸胸闷 四肢发麻"
-            android:id="@+id/textView089"/>
+            android:id="@+id/symptom"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -109,13 +101,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="此次随访分类："
-            android:id="@+id/visit_classification"/>
+            android:text="此次随访分类：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="控制不满意"
-            android:id="@+id/textView090"/>
+            android:id="@+id/visit_classification"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -125,8 +116,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="转诊建议："
-            android:id="@+id/textView91"/>
+            android:text="转诊建议："/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -136,13 +126,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-            android:text="原因："
-            android:id="@+id/transfer_treatment_reason"/>
+            android:text="原因：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="控制不满意"
-            android:id="@+id/textView092"/>
+            android:id="@+id/transfer_treatment_reason"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -152,13 +141,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="转诊机构及科室："
-            android:id="@+id/transfer_treatment_institution"/>
+            android:text="转诊机构及科室：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="三河市卫生院心内科"
-            android:id="@+id/textView093"/>
+            android:id="@+id/transfer_treatment_institution"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -168,13 +156,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="下次随访日期："
-            android:id="@+id/next_visit_date"/>
+            android:text="下次随访日期：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2015-11-15"
-            android:id="@+id/textView094"/>
+            android:id="@+id/next_visit_date"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -184,8 +171,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="体征"
-            android:id="@+id/textView95"/>
+            android:text="体征"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -194,8 +180,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="血压："
-            android:id="@+id/textView96"/>
+            android:text="血压："/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -204,8 +189,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="/"
-            android:id="@+id/textView0961"/>
+            android:text="/"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -214,8 +198,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="mmHg"
-            android:id="@+id/textView0963"/>
+            android:text="mmHg"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -225,23 +208,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="体重（kg）："
-            android:id="@+id/sign_weight"/>
+            android:text="体重（kg）：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="87"
-            android:id="@+id/textView097"/>
+            android:id="@+id/sign_weight"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="/"
-            android:id="@+id/textView0971"/>
+            android:text="/" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="85"
-            android:id="@+id/textView0972"/>
+            android:id="@+id/sign_weight_next"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -251,23 +232,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="体质指数："
-            android:id="@+id/sign_bmi"/>
+            android:text="体质指数：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="27"
-                android:id="@+id/textView098"/>
+                android:id="@+id/sign_bmi"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="/"
-                android:id="@+id/textView0981"/>
+                android:text="/"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="26"
-                android:id="@+id/textView0982"/>
+                android:id="@+id/sign_bmi_next"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -277,18 +256,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="心率："
-            android:id="@+id/sign_heart_rhythm"/>
+            android:text="心率：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="87"
-                android:id="@+id/textView099"/>
+                android:id="@+id/sign_heart_rhythm"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="次/分钟"
-                android:id="@+id/textView0991"/>
+                android:text="次/分钟"/>
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -299,8 +276,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="生活方式指导"
-            android:id="@+id/textView100"/>
+            android:text="生活方式指导"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -309,23 +285,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="日吸烟量（支）："
-            android:id="@+id/life_style_guide_smoke"/>
+            android:text="日吸烟量（支）：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="20"
-            android:id="@+id/textView0101"/>
+            android:id="@+id/life_style_guide_smoke"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="/"
-            android:id="@+id/textView01011"/>
+            android:text="/"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="15"
-            android:id="@+id/textView01012"/>
+            android:id="@+id/life_style_guide_smoke_next"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -335,23 +309,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="日饮酒量（两）："
-            android:id="@+id/life_style_guide_liquor"/>
+            android:text="日饮酒量（两）：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3"
-            android:id="@+id/textView0102"/>
+            android:id="@+id/life_style_guide_liquor"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="/"
-            android:id="@+id/textView01021"/>
+            android:text="/"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2"
-            android:id="@+id/textView01022"/>
+            android:id="@+id/life_style_guide_liquor_next"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -361,8 +333,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="运动："
-            android:id="@+id/textView103"/>
+            android:text="运动："/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -371,8 +342,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="次/周"
-            android:id="@+id/textView01031"/>
+            android:text="次/周"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -382,13 +352,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="分钟/次"
-            android:id="@+id/textView01033"/>
+            android:text="分钟/次"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="/"
-            android:id="@+id/textView01034"
             android:layout_marginLeft="15dp"/>
         <TextView
             android:layout_width="wrap_content"
@@ -399,8 +367,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="次/周"
-            android:id="@+id/textView0036"/>
+            android:text="次/周"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -410,8 +377,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="分钟/次"
-            android:id="@+id/textView01038"/>
+            android:text="分钟/次"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -421,24 +387,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="摄盐情况（咸淡）："
-            android:id="@+id/life_style_guide_salt"/>
+            android:text="摄盐情况（咸淡）：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中"
-                android:id="@+id/textView0104"/>
+                android:id="@+id/life_style_guide_salt"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="/"
-                android:id="@+id/textView01041"
                 android:layout_marginLeft="5dp"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中"
-                android:id="@+id/textView01042"
+                android:id="@+id/life_style_guide_salt_next"
                 android:layout_marginLeft="5dp"/>
         </LinearLayout>
         <LinearLayout
@@ -449,13 +413,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="心理调整："
-            android:id="@+id/life_style_guide_mentality"/>
+            android:text="心理调整：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="良好"
-            android:id="@+id/textView0105"/>
+            android:id="@+id/life_style_guide_mentality"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -465,13 +428,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="遵医行为："
-            android:id="@+id/life_style_guide_medical_compliance"/>
+            android:text="遵医行为：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="良好"
-            android:id="@+id/textView0106"/>
+            android:id="@+id/life_style_guide_medical_compliance"/>
     </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -482,20 +444,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="辅助检查"
-            android:id="@+id/auxiliary_examination"/>
+            android:text="辅助检查" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:text="无"
-            android:id="@+id/textView108"/>
+            android:id="@+id/auxiliary_examination"/>
     </LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="用药情况"
-            android:id="@+id/textView109"
             android:layout_marginTop="25dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -505,13 +465,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="服药依从性："
-            android:id="@+id/take_medicine_compliance"/>
+            android:text="服药依从性：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="规律"
-            android:id="@+id/textView0110"/>
+            android:id="@+id/take_medicine_compliance"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -521,13 +480,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="药物不良反应："
-            android:id="@+id/medicine_untoward_effect"/>
+            android:text="药物不良反应：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="无"
-            android:id="@+id/textView0111"/>
+            android:id="@+id/medicine_untoward_effect"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -537,13 +495,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="药物名称1："
-            android:id="@+id/take_medicine_1"/>
+            android:text="药物名称1：" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="硝苯地平"
-            android:id="@+id/textView0112"/>
+            android:id="@+id/take_medicine_1"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -553,13 +510,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="用法用量："
-            android:id="@+id/textView113"/>
+            android:text="用法用量："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="每日"
-                android:id="@+id/textView0113"/>
+                android:text="每日"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -568,13 +523,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="次"
-                android:id="@+id/textView011132"/>
+                android:text="次"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="每次"
-                android:id="@+id/textView01133"
                 android:layout_marginLeft="10dp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -584,8 +537,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="mg"
-                android:id="@+id/textView01135"/>
+                android:text="mg"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -595,13 +547,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="药物名称2："
-            android:id="@+id/take_medicine_2"/>
+            android:text="药物名称2：" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="呋塞米"
-                android:id="@+id/textView0114"/>
+                android:id="@+id/take_medicine_2"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -611,13 +562,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="用法用量："
-            android:id="@+id/textView115"/>
+            android:text="用法用量："/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="每日"
-                android:id="@+id/textView0115"/>
+                android:text="每日"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -626,13 +575,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="次"
-                android:id="@+id/textView01152"/>
+                android:text="次"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="每次"
-                android:id="@+id/textView01153"
                 android:layout_marginLeft="10dp"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -642,8 +589,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="mg"
-                android:id="@+id/textView01155"/>
+                android:text="mg"/>
         </LinearLayout>
  </LinearLayout>
 </ScrollView>
